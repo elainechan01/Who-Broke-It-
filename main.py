@@ -22,12 +22,11 @@ culprit = None
 while index < len(official_suspect_list):
   curr = official_suspect_list[index]
   ptr = 0
-  while ptr < len(curr)//2:
-    end = len(curr) - ptr - 1
-    if curr[ptr] == curr[end]:
+  while ptr < len(curr):
+    end = len(curr)
+    if curr[ptr] == curr[ptr+1]:
       continue
     else:
       break
     ptr += 1
-  culprit = curr
   index += 1
