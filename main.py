@@ -1,7 +1,7 @@
 # <----- READ ME ----->
 # Oh no! Our program has been attacked by a ransomware. We were given an anonymous tip about the potential suspects for the attack. Help us debug this program to find the suspect!
 
-suspect_list = ["Amy", "Felicia", "Tony", "paul", "ivy", "Anthony", "jameson", "Anna"]
+suspect_list = ["Amy", "Felicia", "Tony", "paul", "ivy", "Anthony", "jameson", "Anna", "Nathen"]
 
 # LIST COMPREHENSION
 # see how we can implement a for loop with conditions in one line? What do you think this function does?
